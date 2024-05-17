@@ -1,0 +1,170 @@
+<style type="text/css">
+	/*header*/
+	.header{
+		height: 85px;
+		background-color: #d1d1d1;
+		font-family: Franklin gothic medium;
+	}
+	.header-center{
+		background-color: none;
+		width: 50%;
+		height: 85px;
+		margin: 0 auto;
+		display: flex;
+	}
+	.logo{
+		height: 50px;
+		margin: auto 0;
+		margin-left: 5px;
+	}
+	.box-navigator{
+		background-color: none;
+		width: 575px;
+		display: flex;
+	}
+	.navigator{
+		text-decoration: none;
+		color: white;
+		font-size: 25px;
+		margin: auto 0;
+		margin-left: 20px;
+	}
+	.navigator:hover{
+		text-decoration: underline;
+	}
+
+	/*container*/
+	.chart-container{
+		width: 50%;
+		height: 620px;
+		margin: 0 auto;
+	}
+	.chart-sort{
+		display: flex;
+		width: 60%;
+		height: 45px;
+		margin: 0 auto;
+	}
+	.chart{
+		background:linear-gradient(to left, #3595cc, #8dd8e0);
+		height: 115px;
+		border-radius: 20px;
+		margin-top: 10px;
+		display: flex;
+		width: 751px;
+	}
+	.chart-box-name{
+		width: 525px;
+	}
+	.chart-box-button{
+		width: 105px;
+		display: flex;
+	}
+	.chart-image{
+		height: 115px;
+		width: 121px;
+		border-radius: 20px;
+	}
+	.chart-song-name{
+		color: white;
+		font-size: 25px;
+		font-family: sans-serif;
+		font-weight: 700;
+		margin: 20px 0 0 20px;
+		width: 400px;
+	}
+	.chart-song-creator{
+		color: gray;
+		font-size: 20px;
+		width: 300px;
+		font-family: sans-serif;
+		font-weight: 700;
+		margin: 20px 0 0 20px;
+	}
+	button{
+		background-color: lightgreen;
+		color: white;
+		border: none;
+		font-size: 25px;
+		border-radius: 5px;
+		margin: auto;
+		transition: 0.3s;
+		box-shadow: 3px 3px 5px black;
+		font-family: franklin gothic medium;
+	}
+	button:hover{
+		font-size: 28px;
+		cursor: pointer;
+		background-color: lightblue;
+	}
+</style>
+<div class="header">
+	<div class="header-center">
+		<img class="logo" src="logo.png">
+		<div class="box-navigator">
+			<a class="navigator" href="">About us</a>
+			<a class="navigator" href="">Contact us</a>
+			<a class="navigator" href="">Social Media</a>
+		</div>
+	</div>
+</div>
+<div class="chart-sort">
+	<button>Most Streamed Songs of All time</button>
+	<button>Top Songs of 2023</button>
+	<button>Top Songs of 2022</button>
+</div>
+<div class="chart-container">
+	<div class="chart">
+		<div class="chart-box-name">
+			<p class="chart-song-name">Blinding Lights</p>
+			<p class="chart-song-creator">The Weeknd</p>
+		</div>
+		<div class="chart-box-button">
+			<button>Play</button>
+		</div>
+		<img class="chart-image" src="1.png">
+	</div>
+<div class="chart">
+		<div class="chart-box-name">
+			<p class="chart-song-name">Shape of You</p>
+			<p class="chart-song-creator">Ed Sheeran</p>
+		</div>
+		<div class="chart-box-button">
+			<button>Play</button>
+		</div>
+		<img class="chart-image" src="2.png">
+	</div>
+
+<div class="chart">
+		<div class="chart-box-name">
+			<p class="chart-song-name">Someone you Loved</p>
+			<p class="chart-song-creator">Lewis Capaldi</p>
+		</div>
+		<div class="chart-box-button">
+			<button>Play</button>
+		</div>
+		<img class="chart-image" src="3.png">
+	</div>
+
+<div class="chart">
+		<div class="chart-box-name">
+			<p class="chart-song-name">Sunflower</p>
+			<p class="chart-song-creator">Post Malone & Swae Lee</p>
+		</div>
+		<div class="chart-box-button">
+			<button>Play</button>
+		</div>
+		<img class="chart-image" src="4.png">
+	</div>
+
+<div class="chart">
+		<div class="chart-box-name">
+			<p class="chart-song-name">Starboy</p>
+			<p class="chart-song-creator">The Weeknd ft. Daft Punk</p>
+		</div>
+		<div class="chart-box-button">
+			<button>Play</button>
+		</div>
+		<img class="chart-image" src="5.png">
+	</div>
+</div>
